@@ -1,0 +1,10 @@
+Content of the folder:
+
+1. versiondefinitiva.cpp : C++ script for simulating a plane wave with a Gaussian amplitude against a potential barrier V. 2023-2024 version.
+2. animacion_schroedinger.py : script to produce a .mp4 video file of the wave. 
+3. schroedinger.mp4: the mp4 file that the current version of versiondefinitiva.cpp produces
+4. datos.dat: the file used to produce the .mp4 file. This is what the .py reads 
+5. norma.dat: a file that saves the norm of the plane wave. Can be used to trace the stability of the simulation, as it should be equal to 1 at every iteration step
+6. complex.h: a function in C to work with complex number. Needed to run versiondefinitiva.cpp
+7. Schrodingersim_algorithm.ipynb: a 2026 notebook explaining the algorithm behind the C++ script. It also includes a python script for the simulation. Produced with Claude. 
+
